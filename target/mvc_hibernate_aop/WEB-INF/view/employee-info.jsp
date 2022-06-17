@@ -16,6 +16,8 @@
   <h2>Employee info</h2>
   <br>
     <form:form action="saveEmployee" modelAttribute="employee">
+        <form:hidden path="id"/>
+
         <p>Name <form:input path="name"/></p>
         <p>Surname <form:input path="surname"/></p>
         <p>Department <form:input path="department"/></p>
